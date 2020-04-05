@@ -1,21 +1,34 @@
 plugins {
     id 'java'
     id 'java-gradle-plugin'
+    id 'maven-publish'
 }
 
-group 'tk.plugins'
-version '1.0'
+group 'de.krupski.plugins'
+version '1.0.0'
 
 gradlePlugin {
     plugins {
         multimodule {
-            id = 'tk.plugins.multimodule'
-            implementationClass = 'tk.plugins.multimodule.MultiModulePlugin'
+            id = 'de.krupski.plugins.multimodule'
+            implementationClass = 'de.krupski.plugins.multimodule.MultiModulePlugin'
         }
     }
 }
 
 sourceCompatibility = 10
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'de.krupski.plugins'
+            artifactId = 'multimodule'
+            version = project.version
+
+            from components.java
+        }
+    }
+}
 
 repositories {
     mavenCentral()

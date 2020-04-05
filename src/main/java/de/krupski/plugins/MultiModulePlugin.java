@@ -1,4 +1,4 @@
-package tk.plugins.multimodule;
+package de.krupski.plugins;
 
 import org.gradle.api.Plugin;
 import org.gradle.api.Project;
