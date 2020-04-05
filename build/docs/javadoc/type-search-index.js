@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"de.krupski.plugins","l":"MultiModulePlugin"},{"p":"de.krupski.plugins","l":"MultiModulePluginExtension"}]

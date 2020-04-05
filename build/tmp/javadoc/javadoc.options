@@ -1,0 +1,7 @@
+-classpath 'C:\\Users\\tkrup\\JavaProjects\\MultiModulePlugin\\build\\classes\\java\\main;C:\\Users\\tkrup\\JavaProjects\\MultiModulePlugin\\build\\resources\\main;C:\\Users\\tkrup\\.gradle\\caches\\4.10.3\\generated-gradle-jars\\gradle-api-4.10.3.jar;C:\\Users\\tkrup\\.gradle\\wrapper\\dists\\gradle-4.10.3-bin\\31t79e2qsceia4mkbojplrgx\\gradle-4.10.3\\lib\\groovy-all-2.4.15.jar;C:\\Users\\tkrup\\.gradle\\wrapper\\dists\\gradle-4.10.3-bin\\31t79e2qsceia4mkbojplrgx\\gradle-4.10.3\\lib\\gradle-installation-beacon-4.10.3.jar'
+-d 'C:\\Users\\tkrup\\JavaProjects\\MultiModulePlugin\\build\\docs\\javadoc'
+-doctitle 'de.krupski.plugins.multimodule.MultiModulePlugin 1.0.0 API'
+-quiet 
+-windowtitle 'de.krupski.plugins.multimodule.MultiModulePlugin 1.0.0 API'
+'C:\\Users\\tkrup\\JavaProjects\\MultiModulePlugin\\src\\main\\java\\de\\krupski\\plugins\\MultiModulePlugin.java'
+'C:\\Users\\tkrup\\JavaProjects\\MultiModulePlugin\\src\\main\\java\\de\\krupski\\plugins\\MultiModulePluginExtension.java'

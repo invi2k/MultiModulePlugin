@@ -1,7 +1,7 @@
 plugins {
     id 'java'
     id 'java-gradle-plugin'
-    id 'maven-publish'
+    id "com.gradle.plugin-publish" version "0.11.0"
 }
 
 group 'de.krupski.plugins'
@@ -18,14 +18,16 @@ gradlePlugin {
 
 sourceCompatibility = 10
 
-publishing {
-    publications {
-        maven(MavenPublication) {
-            groupId = 'de.krupski.plugins'
-            artifactId = 'multimodule'
-            version = project.version
+pluginBundle {
+    website = 'http://www.gradle.org/'
+    vcsUrl = 'https://github.com/invi2k/MultiModulePlugin'
+    description = 'My Multimodule Plugin!'
+    tags = ['multi module']
 
-            from components.java
+    plugins {
+        multimodule {
+            // id is captured from java-gradle-plugin configuration
+            displayName = 'Gradle Greeting plugin'
         }
     }
 }
