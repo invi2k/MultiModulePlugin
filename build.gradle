@@ -3,8 +3,17 @@ plugins {
     id 'java-gradle-plugin'
 }
 
-group 'tk.dev'
-version '1.0-SNAPSHOT'
+group 'tk.plugins'
+version '1.0'
+
+gradlePlugin {
+    plugins {
+        multimodule {
+            id = 'tk.plugins.multimodule'
+            implementationClass = 'tk.plugins.multimodule.MultiModulePlugin'
+        }
+    }
+}
 
 sourceCompatibility = 10
 
