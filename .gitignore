@@ -23,5 +23,5 @@ hs_err_pid*
 
 .idea
 .gradle
-/build/
-!/build/libs/*.jar
+./build/
+!./build/libs/*.jar
